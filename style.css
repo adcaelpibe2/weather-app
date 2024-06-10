@@ -1,0 +1,79 @@
+body{
+    background: radial-gradient(circle at 10% 20%, rgb(242, 235, 243) 0%, rgb(234, 241, 249) 90.1%);
+    background: linear-gradient(109.5deg, rgb(13, 11, 136) 9.4%, rgb(86, 255, 248) 78.4%);
+
+
+}
+
+.bien{
+    width: 600px;
+    height: 170px;
+    border-radius: 30px;
+    /*background-color: yellow;*/
+    margin: 0px auto;
+    padding-top: 3px;
+}
+
+.bien > h2{
+    margin-bottom: 20px;
+    display: block;
+    width: 400px;
+    height: 30px;
+    background-color: rebeccapurple;
+    margin-top: 20px;
+    margin-left: 90px;
+    text-align: center;
+    border-radius: 44px;
+}
+
+#form-app{
+    background-color: aqua;
+    border-radius: 23px;
+    width: 400px;
+    height: 65px;
+    margin-top: 7px;
+    margin: 0px auto;
+}
+
+#form-app > input{
+    border-radius: 10px;
+    margin-left: 33px;
+    margin-top: 12px;
+    width: 300px;
+    height: 30px;
+    padding-left: 12px;
+}
+
+#date{
+    /*background-color: rgb(225, 225, 109);*/
+    
+    width: 370px;
+    height: 170px;
+    margin-top: 13px;
+    margin-left: 370px;
+    padding-left: 210px;
+}
+
+#main{
+   /* background-color: rgb(222, 79, 79);*/
+    width: 550px;
+    height: 400px;
+    margin: 0px auto;
+}
+
+#main > h3{
+    text-align: center;
+    padding-top: 30px;
+}
+
+#main > #content{
+    background-color: rgb(175, 222, 222);
+    border: 3px solid blue;
+    width: 400px;
+    height: 300px;
+    margin: 0px auto;
+    overflow: hidden;
+    overflow-y: scroll;
+    padding-left: 47px;
+}
+
