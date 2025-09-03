@@ -1,30 +1,31 @@
 body{
     background: linear-gradient(0deg,#f1f4f8,#f1f4f8),#d9e0e9;
+    box-sizing: border-box;
+
 }
 
 .header{
     width: 42.2%;
     min-height: 10.6rem;
-    border-radius: 30px;
+    border-radius: 1.9rem;
     margin: 0px auto;
     padding-top: 0.19rem;
 }
 
 .header > h2{
-    font-size: 2.7rem;
     font-size: 3rem;
     margin-bottom: 1.25rem;
     display: block;
     width: 66.6%;
     height: auto;
     margin-top: 1.25rem;
-    margin-left: 90px;
+    margin-left: 5.6rem;
     text-align: center;
-    border-radius: 44px;
+    border-radius: 1.7rem;
 }
 
 #form-app{
-    border-radius: 23px;
+    border-radius: 1.4rem;
     width: 70%;
     height: auto;
     margin: 0px auto;
@@ -35,7 +36,7 @@ body{
 }
 
 #form-app > input{
-    border-radius: 10px;
+    border-radius: 0.6rem;
     margin-left: 0.5rem;
     margin-top: 1rem;
     width: 52%;
@@ -260,7 +261,6 @@ body{
     margin: 0px auto;
     margin-top: 7rem;
     font-family: Solis,Arial,Helvetica,sans-serif;
-
 }
 
 #main > h3{
@@ -287,7 +287,6 @@ body{
     height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    row-gap: 1rem;
     column-gap: 7rem;
     row-gap: 2rem;
     margin-right: 1.4rem;
@@ -438,4 +437,1813 @@ body{
     padding-left: 1.7rem;
     color: #999;
     margin-bottom: 1.7rem;
+}
+
+
+
+@media (min-width: 400px) and (max-width: 447px) {
+    .header{
+        width: 80%;
+        height: 10rem;
+        padding-top: 1rem;
+    }
+
+    .header > h2{
+        font-size: 2rem;
+        width: 60%;
+        /* background-color: aqua; */
+        margin: 0px auto;
+    }
+
+    #form-app{
+        width: 90%;
+        margin-top: 1.2rem;
+        /* background-color: rebeccapurple; */
+    }
+
+    /* #form-app > input{
+        width: 52%;
+        background-color: seagreen;
+    } */
+
+    #form-app #search-btn{    
+        margin-left: 0rem;
+        left: 3.6rem;
+        /* background-color: sandybrown; */
+    }
+
+    #date{
+        /* background-color: #c12c2c; */
+        font-size: 1rem;
+        width: 90%;
+        /* min-height: 27.7rem; */
+        margin-top: 0rem;
+        column-gap: 0rem;
+
+    }
+
+    #date .city{
+        width: 40%;
+        margin-left: 1rem;
+        padding-top: 1rem;
+        /* background-color: #c12c2c; */
+    }
+
+    #date .name{
+        width: auto;
+        height: auto;
+        padding-top: 1rem;
+        /* background-color: seagreen; */
+    }
+
+
+    
+    #date .name::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+
+    #date .mix{
+        width: 70%;
+        margin-left: 5rem;
+        /* background-color: darkblue; */
+    }
+
+    #date .mix .temp{
+        font-size: 3.2rem;
+        /* background-color: darkcyan; */
+    }
+
+    #date .icon img{
+        width: 6.5rem;
+        /* background-color: palegreen; */
+    }
+
+    #date .description{
+        margin-left: 6.2rem;
+        /* background-color: palegreen; */
+    }
+
+    #date .details{
+        margin-left: 1rem;
+        font-size: 1.1rem;
+        /* background-color: skyblue; */
+    }
+
+    #date .details::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    #date .feels{
+        padding-left: 1.8rem;
+        /* background-color: sandybrown; */
+    }
+
+    #date .feels-main{
+
+        padding-left: 0.5rem;
+        /* background-color: wheat; */
+    }
+
+    
+    #date .feels::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    #date .wind{
+        padding-left: 1.8rem;
+    }
+    #date .wind-speed{
+        padding-left: 0.4rem;
+    }
+
+    
+    #date .wind::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    #date .humidity{
+        padding-left: 1.8rem;
+    }
+    
+    #date .humidity-main{
+        padding-left: 0.5rem;
+    }
+
+    
+    #date .humidity::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    #date .pressure{
+        padding-left: 1.8rem;
+    }
+    
+    #date .pressure-main{
+        padding-left: 0.5rem;
+    }
+
+    
+    #main{
+        /* background-color: #972f2f; */
+        width: 100%;
+        margin-top: 4rem;
+    }
+
+    #main > h3{
+        font-size: 1.6rem;
+        /* background-color: seagreen; */
+    }
+
+    #main > #content{
+        /* background-color: #881f1f; */
+        padding-left: 0rem;
+    }
+
+
+    #main #content .complete{
+        width: auto;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 0rem;
+        row-gap: 2rem;
+        margin-right: 0rem;
+        margin-top: 1rem;
+        /* background-color: saddlebrown; */
+    }
+
+    #content .complete .days{
+        font-size: 1.2rem;
+        margin-left: 5rem;
+        /* margin: 0px auto; */
+        /* background-color: slateblue; */
+    }
+
+    #content .complete .mixed{
+        width: 82%;
+        margin-left: 5rem;
+        /* background-color: aqua; */
+    }
+
+
+    #content .mixed .tempe{
+        font-size: 3.2rem;
+    }
+
+    #content .mixed .icon{
+        width: 6.5rem;
+    }
+
+    #content .mixed .tempe::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    #content .complete .feels-like{
+        width: auto;
+        height: auto; 
+        padding-left: 1.7rem;
+        color: #999;
+        /* background-color: #881f1f; */
+    }
+
+    #content .complete .feels-like::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    #content .complete .wind-speed::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    #content .complete .humidity-value::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    #content .complete .pressure-value::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+}
+
+
+
+
+
+
+@media (min-width: 447px) and (max-width: 469px) {
+    .header{
+        width: 80%;
+        height: 10rem;
+        padding-top: 1rem;
+    }
+
+    .header > h2{
+        font-size: 2.4rem;
+        width: 60%;
+        margin: 0px auto;
+    }
+
+    #form-app{
+        width: 90%;
+        margin-top: 1.2rem;
+    }
+
+    #form-app #search-btn{    
+        margin-left: 0.3rem;
+        left: 3.6rem;
+        /* background-color: sandybrown; */
+    }
+
+    #date{
+        /* background-color: #c12c2c; */
+        font-size: 1rem;
+        width: 90%;
+        margin-top: 0rem;
+        column-gap: 0rem;
+
+    }
+
+    #date .city{
+        width: 40%;
+        margin-left: 3rem;
+        padding-top: 1rem;
+        /* background-color: #c12c2c; */
+    }
+
+    #date .name{
+        width: auto;
+        height: auto;
+        padding-top: 1rem;
+        /* background-color: seagreen; */
+    }
+
+
+    
+    #date .name::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+
+    #date .mix{
+        width: 70%;
+        margin-left: 6.5rem;
+        /* background-color: darkblue; */
+    }
+
+    #date .mix .temp{
+        font-size: 3.2rem;
+        /* background-color: darkcyan; */
+    }
+
+    #date .icon img{
+        width: 6.5rem;
+        /* background-color: palegreen; */
+    }
+
+    #date .description{
+        margin-left: 7.7rem;
+        /* background-color: palegreen; */
+        font-size: 1.3rem;
+
+    }
+
+    #date .details{
+        margin-left: 1.6rem;
+        font-size: 1.1rem;
+        /* background-color: skyblue; */
+    }
+
+    #date .details::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    #date .feels{
+        padding-left: 2.5rem;
+        /* background-color: sandybrown; */
+    }
+
+    #date .feels-main{
+
+        padding-left: 2rem;
+        /* background-color: wheat; */
+    }
+
+    
+    #date .feels::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    #date .wind{
+        padding-left: 2.5rem;
+    }
+    #date .wind-speed{
+        padding-left: 1.7rem;
+    }
+
+    
+    #date .wind::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    #date .humidity{
+        padding-left: 2.5rem;
+    }
+    
+    #date .humidity-main{
+        padding-left: 2rem;
+    }
+
+    
+    #date .humidity::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    #date .pressure{
+        padding-left: 2.5rem;
+    }
+    
+    #date .pressure-main{
+        padding-left: 1.7rem;
+    }
+
+    /* aquinosquedamos bro!! */
+
+    
+    #main{
+        width: 100%;
+        margin-top: 4rem;
+    }
+
+    #main > h3{
+        font-size: 1.8rem;
+        /* background-color: seagreen; */
+    }
+
+    #main > #content{
+        /* background-color: #881f1f; */
+        padding-left: 0rem;
+    }
+
+
+    #main #content .complete{
+        column-gap: 0rem;
+        row-gap: 2rem;
+        margin-right: 0rem;
+        margin-top: 1rem;
+        /* background-color: saddlebrown; */
+    }
+
+    #content .complete .days{
+        font-size: 1.3rem;
+        margin-left: 7rem;
+        /* background-color: slateblue; */
+    }
+
+    #content .complete .mixed{
+        width: 82%;
+        margin-left: 6.2rem;
+        /* background-color: aqua; */
+    }
+
+
+    #content .mixed .tempe{
+        font-size: 3.2rem;
+    }
+
+    #content .mixed .icon{
+        width: 6.5rem;
+    }
+
+    #content .mixed .tempe::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    #content .complete .feels-like{
+        padding-left: 2.5rem;
+    }
+
+    #content .complete .feels-like::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    #content .complete .wind-speed{
+        padding-left: 2.5rem;
+    }
+
+    #content .complete .wind-speed::after{
+        width: 76.2%;
+        left: 11%;
+    }
+    #content .complete .humidity-value{
+        padding-left: 2.5rem;
+    }
+    
+
+    #content .complete .humidity-value::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    #content .complete .pressure-value{ 
+        padding-left: 2.5rem;
+    }
+
+    #content .complete .pressure-value::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    
+    #content .complete .clouds-cover{
+        padding-left: 2.5rem;
+    }
+
+}
+
+
+
+
+/* aquilodejamos */
+
+@media (min-width: 470px) and (max-width: 489px) {
+    .header{
+        width: 80%;
+        height: 10rem;
+        padding-top: 1rem;
+        /* background-color: aqua; */
+    }
+
+    .header > h2{
+        font-size: 2.5rem;
+        width: 60%;
+        margin: 0px auto;
+    }
+
+    #form-app{
+        width: 90%;
+        margin-top: 1.2rem;
+    }
+
+    #form-app #search-btn{    
+        margin-left: 0.7rem;
+        left: 3.6rem;
+        /* background-color: sandybrown; */
+    }
+
+    #date{
+        font-size: 1rem;
+        width: 90%;
+        margin-top: 0rem;
+        column-gap: 0rem;
+    }
+
+    #date .city{
+        width: 40%;
+        margin-left: 3rem;
+        padding-top: 1rem;
+    }
+
+    #date .name{
+        width: auto;
+        height: auto;
+        padding-top: 1rem;
+        margin-left: 1rem;
+        /* background-color: seagreen; */
+    }
+
+
+    
+    #date .name::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+
+    #date .mix{
+        width: 70%;
+        margin-left: 7.4rem;
+        /* background-color: darkblue; */
+    }
+
+    #date .mix .temp{
+        font-size: 3.2rem;
+        /* background-color: darkcyan; */
+    }
+
+    #date .icon img{
+        width: 6.5rem;
+        /* background-color: palegreen; */
+    }
+
+    #date .description{
+        margin-left: 7.7rem;
+        /* background-color: palegreen; */
+        font-size: 1.3rem;
+
+    }
+
+    #date .details{
+        margin-left: 1.6rem;
+        font-size: 1.1rem;
+        /* background-color: skyblue; */
+    }
+
+    #date .details::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    #date .feels{
+        padding-left: 2.5rem;
+        /* background-color: sandybrown; */
+    }
+
+    #date .feels-main{
+
+        padding-left: 2rem;
+        /* background-color: wheat; */
+    }
+
+    
+    #date .feels::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    #date .wind{
+        padding-left: 2.5rem;
+    }
+    #date .wind-speed{
+        padding-left: 1.7rem;
+    }
+
+    
+    #date .wind::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    #date .humidity{
+        padding-left: 2.5rem;
+    }
+    
+    #date .humidity-main{
+        padding-left: 2rem;
+    }
+
+    
+    #date .humidity::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    #date .pressure{
+        padding-left: 2.5rem;
+    }
+    
+    #date .pressure-main{
+        padding-left: 1.7rem;
+    }
+
+    /* aquinosquedamos bro!! */
+
+    
+    #main{
+        width: 100%;
+        margin-top: 4rem;
+    }
+
+    #main > h3{
+        font-size: 1.8rem;
+        /* background-color: seagreen; */
+    }
+
+    #main > #content{
+        /* background-color: #881f1f; */
+        padding-left: 0rem;
+    }
+
+
+    #main #content .complete{
+        column-gap: 0rem;
+        row-gap: 2rem;
+        margin-right: 0rem;
+        margin-top: 1rem;
+        /* background-color: saddlebrown; */
+    }
+
+    #content .complete .days{
+        font-size: 1.3rem;
+        margin-left: 8.8rem;
+        /* background-color: slateblue; */
+    }
+
+    #content .complete .mixed{
+        width: 82%;
+        margin-left: 6.7rem;
+        /* background-color: aqua; */
+    }
+
+
+    #content .mixed .tempe{
+        font-size: 3.2rem;
+    }
+
+    #content .mixed .icon{
+        width: 6.5rem;
+    }
+
+    #content .mixed .tempe::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    #content .complete .feels-like{
+        padding-left: 2.5rem;
+        /* background-color: seagreen; */
+    }
+
+    #content .complete .feels-like-main{
+        /* background-color: red; */
+        padding-left: 2rem;
+    }
+
+    #content .complete .feels-like::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    #content .complete .wind-speed{
+        padding-left: 2.5rem;
+    }
+
+    #content .complete .wind-speed-main{
+        padding-left: 1.8rem;
+    }
+
+    #content .complete .wind-speed::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    #content .complete .humidity-value{
+        padding-left: 2.5rem;
+    }
+
+    #content .complete .humidity-value-main{
+        padding-left: 2rem;
+    }
+    
+
+    #content .complete .humidity-value::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    #content .complete .pressure-value{ 
+        padding-left: 2.5rem;
+    }
+
+    #content .complete .pressure-value-main{ 
+        padding-left: 1.8rem;
+    }
+
+    #content .complete .pressure-value::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    
+    #content .complete .clouds-cover{
+        padding-left: 2.5rem;
+    }
+
+    #content .complete .clouds-cover-main{
+        padding-left: 2rem;
+    }
+
+}
+
+
+
+
+
+
+
+@media (min-width: 490px) and (max-width: 509px) {
+    .header{
+        width: 80%;
+        height: 10rem;
+        padding-top: 1rem;
+        /* background-color: aqua; */
+    }
+
+    .header > h2{
+        font-size: 2.5rem;
+        width: 60%;
+        margin: 0px auto;
+    }
+
+    #form-app{
+        width: 90%;
+        margin-top: 1.2rem;
+    }
+
+    #form-app #search-btn{    
+        margin-left: 1rem;
+        left: 3.6rem;
+        /* background-color: sandybrown; */
+    }
+
+    #date{
+        font-size: 1rem;
+        width: 90%;
+        margin-top: 0rem;
+        column-gap: 0rem;
+    }
+
+    #date .city{
+        width: 40%;
+        margin-left: 3rem;
+        padding-top: 1rem;
+    }
+
+    #date .name{
+        width: auto;
+        height: auto;
+        padding-top: 1rem;
+        margin-left: 2.5rem;
+        /* background-color: seagreen; */
+    }
+
+
+    
+    #date .name::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+
+    #date .mix{
+        width: 70%;
+        margin-left: 7.7rem;
+        /* background-color: darkblue; */
+    }
+
+    #date .mix .temp{
+        font-size: 3.2rem;
+        /* background-color: darkcyan; */
+    }
+
+    #date .icon img{
+        width: 6.5rem;
+        /* background-color: palegreen; */
+    }
+
+    #date .description{
+        margin-left: 9rem;
+        /* background-color: palegreen; */
+        font-size: 1.3rem;
+
+    }
+
+    #date .details{
+        margin-left: 1.6rem;
+        font-size: 1.1rem;
+        /* background-color: skyblue; */
+    }
+
+    #date .details::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    #date .feels{
+        padding-left: 2.5rem;
+        /* background-color: sandybrown; */
+    }
+
+    #date .feels-main{
+
+        padding-left: 2rem;
+        /* background-color: wheat; */
+    }
+
+    
+    #date .feels::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    #date .wind{
+        padding-left: 2.5rem;
+    }
+    #date .wind-speed{
+        padding-left: 1.7rem;
+    }
+
+    
+    #date .wind::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    #date .humidity{
+        padding-left: 2.5rem;
+    }
+    
+    #date .humidity-main{
+        padding-left: 2rem;
+    }
+
+    
+    #date .humidity::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    #date .pressure{
+        padding-left: 2.5rem;
+    }
+    
+    #date .pressure-main{
+        padding-left: 1.7rem;
+    }
+
+    /* aquinosquedamos bro!! */
+
+    
+    #main{
+        width: 100%;
+        margin-top: 4rem;
+    }
+
+    #main > h3{
+        font-size: 1.8rem;
+        /* background-color: seagreen; */
+    }
+
+    #main > #content{
+        /* background-color: #881f1f; */
+        padding-left: 0rem;
+    }
+
+
+    #main #content .complete{
+        column-gap: 0rem;
+        row-gap: 2rem;
+        margin-right: 0rem;
+        margin-top: 1rem;
+        /* background-color: saddlebrown; */
+    }
+
+    #content .complete .days{
+        font-size: 1.3rem;
+        margin-left: 10rem;
+        /* background-color: slateblue; */
+    }
+
+    #content .complete .mixed{
+        width: 82%;
+        margin-left: 7.2rem;
+        /* background-color: aqua; */
+    }
+
+
+    #content .mixed .tempe{
+        font-size: 3.2rem;
+    }
+
+    #content .mixed .icon{
+        width: 6.5rem;
+    }
+
+    #content .mixed .tempe::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    #content .complete .feels-like{
+        padding-left: 2.5rem;
+        /* background-color: seagreen; */
+    }
+
+    #content .complete .feels-like-main{
+        /* background-color: red; */
+        padding-left: 2.5rem;
+    }
+
+    #content .complete .feels-like::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    #content .complete .wind-speed{
+        padding-left: 2.5rem;
+    }
+
+    #content .complete .wind-speed-main{
+        padding-left: 2.3rem;
+    }
+
+    #content .complete .wind-speed::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    #content .complete .humidity-value{
+        padding-left: 2.5rem;
+    }
+
+    #content .complete .humidity-value-main{
+        padding-left: 2.5rem;
+    }
+    
+
+    #content .complete .humidity-value::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    #content .complete .pressure-value{ 
+        padding-left: 2.5rem;
+    }
+
+    #content .complete .pressure-value-main{ 
+        padding-left: 2.3rem;
+    }
+
+    #content .complete .pressure-value::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    
+    #content .complete .clouds-cover{
+        padding-left: 2.5rem;
+    }
+
+    #content .complete .clouds-cover-main{
+        padding-left: 2.5rem;
+    }
+
+}
+
+
+
+
+
+
+
+@media (min-width: 510px) and (max-width: 540px) {
+    .header{
+        width: 80%;
+        height: 10rem;
+        padding-top: 1rem;
+        /* background-color: aqua; */
+    }
+
+    .header > h2{
+        font-size: 2.6rem;
+        width: 60%;
+        margin: 0px auto;
+    }
+
+    #form-app{
+        width: 90%;
+        margin-top: 1.2rem;
+    }
+
+    #form-app #search-btn{    
+        margin-left: 1.3rem;
+        left: 3.6rem;
+        /* background-color: sandybrown; */
+    }
+
+    #date{
+        font-size: 1rem;
+        width: 90%;
+        margin-top: 0rem;
+        column-gap: 0rem;
+    }
+
+    #date .city{
+        width: 40%;
+        margin-left: 3rem;
+        padding-top: 1rem;
+    }
+
+    #date .name{
+        width: auto;
+        height: auto;
+        padding-top: 1rem;
+        margin-left: 4.7rem;
+        /* background-color: seagreen; */
+    }
+
+
+    
+    #date .name::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+
+    #date .mix{
+        width: 70%;
+        margin-left: 8.5rem;
+        /* background-color: darkblue; */
+    }
+
+    #date .mix .temp{
+        font-size: 3.2rem;
+        /* background-color: darkcyan; */
+    }
+
+    #date .icon img{
+        width: 6.5rem;
+        /* background-color: palegreen; */
+    }
+
+    #date .description{
+        margin-left: 10rem;
+        /* background-color: palegreen; */
+        font-size: 1.3rem;
+
+    }
+
+    #date .details{
+        margin-left: 1.6rem;
+        font-size: 1.1rem;
+        /* background-color: skyblue; */
+    }
+
+    #date .details::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    #date .feels{
+        padding-left: 2.5rem;
+        /* background-color: sandybrown; */
+    }
+
+    #date .feels-main{
+
+        padding-left: 4rem;
+        /* background-color: wheat; */
+    }
+
+    
+    #date .feels::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    #date .wind{
+        padding-left: 2.5rem;
+    }
+    #date .wind-speed{
+        padding-left: 3.7rem;
+    }
+
+    
+    #date .wind::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    #date .humidity{
+        padding-left: 2.5rem;
+    }
+    
+    #date .humidity-main{
+        padding-left: 4rem;
+    }
+
+    
+    #date .humidity::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    #date .pressure{
+        padding-left: 2.5rem;
+    }
+    
+    #date .pressure-main{
+        padding-left: 3.7rem;
+    }
+
+    /* aquinosquedamos bro!! */
+
+    
+    #main{
+        width: 100%;
+        margin-top: 4rem;
+    }
+
+    #main > h3{
+        font-size: 1.8rem;
+        /* background-color: seagreen; */
+    }
+
+    #main > #content{
+        /* background-color: #881f1f; */
+        padding-left: 0rem;
+    }
+
+
+    #main #content .complete{
+        column-gap: 0rem;
+        row-gap: 2rem;
+        margin-right: 0rem;
+        margin-top: 1rem;
+        /* background-color: saddlebrown; */
+    }
+
+    #content .complete .days{
+        font-size: 1.3rem;
+        margin-left: 11.4rem;
+        /* background-color: slateblue; */
+    }
+
+    #content .complete .mixed{
+        width: 82%;
+        margin-left: 8rem;
+        /* background-color: aqua; */
+    }
+
+
+    #content .mixed .tempe{
+        font-size: 3.2rem;
+    }
+
+    #content .mixed .icon{
+        width: 6.5rem;
+    }
+
+    #content .mixed .tempe::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    #content .complete .feels-like{
+        padding-left: 2.5rem;
+        /* background-color: seagreen; */
+    }
+
+    #content .complete .feels-like-main{
+        /* background-color: red; */
+        padding-left: 4.7rem;
+    }
+
+    #content .complete .feels-like::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    #content .complete .wind-speed{
+        padding-left: 2.5rem;
+    }
+
+    #content .complete .wind-speed-main{
+        padding-left: 4.5rem;
+    }
+
+    #content .complete .wind-speed::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    #content .complete .humidity-value{
+        padding-left: 2.5rem;
+    }
+
+    #content .complete .humidity-value-main{
+        padding-left: 4.7rem;
+    }
+    
+
+    #content .complete .humidity-value::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    #content .complete .pressure-value{ 
+        padding-left: 2.5rem;
+    }
+
+    #content .complete .pressure-value-main{ 
+        padding-left: 4.5rem;
+    }
+
+    #content .complete .pressure-value::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    
+    #content .complete .clouds-cover{
+        padding-left: 2.5rem;
+    }
+
+    #content .complete .clouds-cover-main{
+        padding-left: 4.7rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 569 */
+@media (min-width: 541px) and (max-width: 600px) {
+    .header{
+        width: 80%;
+        height: 10rem;
+        padding-top: 1rem;
+        /* background-color: aqua; */
+    }
+
+    .header > h2{
+        font-size: 2.6rem;
+        width: 60%;
+        margin: 0px auto;
+    }
+
+    #form-app{
+        width: 90%;
+        margin-top: 1.2rem;
+    }
+
+    #form-app #search-btn{    
+        margin-left: 1.3rem;
+        margin-left: 2rem;
+        left: 3.6rem;
+        /* background-color: sandybrown; */
+    }
+
+    #date{
+        font-size: 1rem;
+        width: 90%;
+        margin-top: 0rem;
+        column-gap: 0rem;
+    }
+
+    #date .city{
+        width: 40%;
+        margin-left: 3rem;
+        padding-top: 1rem;
+    }
+
+    #date .name{
+        width: auto;
+        height: auto;
+        padding-top: 1rem;
+        margin-left: 6.5rem;
+        /* background-color: seagreen; */
+    }
+
+
+    
+    #date .name::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+
+    #date .mix{
+        width: 70%;
+        margin-left: 9.7rem;
+        /* background-color: darkblue; */
+    }
+
+    #date .mix .temp{
+        font-size: 3.2rem;
+        /* background-color: darkcyan; */
+    }
+
+    #date .icon img{
+        width: 6.5rem;
+        /* background-color: palegreen; */
+    }
+
+    #date .description{
+        margin-left: 11.4rem;
+        /* background-color: palegreen; */
+        font-size: 1.3rem;
+
+    }
+
+    #date .details{
+        margin-left: 1.6rem;
+        font-size: 1.1rem;
+        /* background-color: skyblue; */
+    }
+
+    #date .details::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    #date .feels{
+        padding-left: 2.5rem;
+        /* background-color: sandybrown; */
+    }
+
+    #date .feels-main{
+
+        padding-left: 5.7rem;
+        /* background-color: wheat; */
+    }
+
+    
+    #date .feels::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    #date .wind{
+        padding-left: 2.5rem;
+    }
+    #date .wind-speed{
+        padding-left: 5.4rem;
+    }
+
+    
+    #date .wind::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    #date .humidity{
+        padding-left: 2.5rem;
+    }
+    
+    #date .humidity-main{
+        padding-left: 5.7rem;
+    }
+
+    
+    #date .humidity::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    #date .pressure{
+        padding-left: 2.5rem;
+    }
+    
+    #date .pressure-main{
+        padding-left: 5.4rem;
+    }
+
+    /* aquinosquedamos bro!! */
+
+    
+    #main{
+        width: 100%;
+        margin-top: 4rem;
+    }
+
+    #main > h3{
+        font-size: 1.8rem;
+        /* background-color: seagreen; */
+    }
+
+    #main > #content{
+        /* background-color: #881f1f; */
+        padding-left: 0rem;
+    }
+
+
+    #main #content .complete{
+        column-gap: 0rem;
+        row-gap: 2rem;
+        margin-right: 0rem;
+        margin-top: 1rem;
+        /* background-color: saddlebrown; */
+    }
+
+    #content .complete .days{
+        font-size: 1.3rem;
+        margin-left: 13rem;
+        /* background-color: slateblue; */
+    }
+
+    #content .complete .mixed{
+        width: 82%;
+        margin-left: 9.2rem;
+        /* background-color: aqua; */
+    }
+
+
+    #content .mixed .tempe{
+        font-size: 3.2rem;
+    }
+
+    #content .mixed .icon{
+        width: 6.5rem;
+    }
+
+    #content .mixed .tempe::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    #content .complete .feels-like{
+        padding-left: 2.5rem;
+        /* background-color: seagreen; */
+    }
+
+    #content .complete .feels-like-main{
+        /* background-color: red; */
+        padding-left: 5rem;
+    }
+
+    #content .complete .feels-like::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    #content .complete .wind-speed{
+        padding-left: 2.5rem;
+    }
+
+    #content .complete .wind-speed-main{
+        padding-left: 4.8rem;
+    }
+
+    #content .complete .wind-speed::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    #content .complete .humidity-value{
+        padding-left: 2.5rem;
+    }
+
+    #content .complete .humidity-value-main{
+        padding-left: 5rem;
+    }
+    
+
+    #content .complete .humidity-value::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    #content .complete .pressure-value{ 
+        padding-left: 2.5rem;
+    }
+
+    #content .complete .pressure-value-main{ 
+        padding-left: 4.8rem;
+    }
+
+    #content .complete .pressure-value::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    
+    #content .complete .clouds-cover{
+        padding-left: 2.5rem;
+    }
+
+    #content .complete .clouds-cover-main{
+        padding-left: 5rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+@media (min-width: 601px) and (max-width: 700px) {
+    .header{
+        width: 80%;
+        height: 10rem;
+        padding-top: 1rem;
+    }
+
+    .header > h2{
+        font-size: 2.6rem;
+        width: 60%;
+        margin: 0px auto;
+    }
+
+    #form-app{
+        width: 90%;
+        margin-top: 1.2rem;
+    }
+
+    #form-app #search-btn{    
+        margin-left: 3rem;
+        left: 3.6rem;
+        /* background-color: sandybrown; */
+    }
+
+    #date{
+        font-size: 1rem;
+        width: 90%;
+        margin-top: 0rem;
+        column-gap: 0rem;
+    }
+
+    #date .city{
+        width: 40%;
+        margin-left: 3rem;
+        padding-top: 1rem;
+    }
+
+    #date .name{
+        width: auto;
+        height: auto;
+        padding-top: 1rem;
+        margin-left: 9.5rem;
+        /* background-color: seagreen; */
+    }
+
+
+    
+    #date .name::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+
+    #date .mix{
+        width: 70%;
+        margin-left: 12rem;
+        /* background-color: darkblue; */
+    }
+
+    #date .mix .temp{
+        font-size: 3.2rem;
+        /* background-color: darkcyan; */
+    }
+
+    #date .icon img{
+        width: 6.5rem;
+        /* background-color: palegreen; */
+    }
+
+    #date .description{
+        margin-left: 13.7rem;
+        /* background-color: palegreen; */
+        font-size: 1.3rem;
+
+    }
+
+    #date .details{
+        margin-left: 1.6rem;
+        font-size: 1.1rem;
+        /* background-color: skyblue; */
+    }
+
+    #date .details::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    #date .feels{
+        padding-left: 2.5rem;
+        /* background-color: sandybrown; */
+    }
+
+    #date .feels-main{
+
+        padding-left: 8.5rem;
+        /* background-color: wheat; */
+    }
+
+    
+    #date .feels::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    #date .wind{
+        padding-left: 2.5rem;
+    }
+    #date .wind-speed{
+        padding-left: 8.2rem;
+    }
+
+    
+    #date .wind::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    #date .humidity{
+        padding-left: 2.5rem;
+    }
+    
+    #date .humidity-main{
+        padding-left: 8.5rem;
+    }
+
+    
+    #date .humidity::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    #date .pressure{
+        padding-left: 2.5rem;
+    }
+    
+    #date .pressure-main{
+        padding-left: 8.2rem;
+    }
+
+    /* aquinosquedamos bro!! */
+
+    
+    #main{
+        width: 100%;
+        margin-top: 4rem;
+    }
+
+    #main > h3{
+        font-size: 1.8rem;
+        /* background-color: seagreen; */
+    }
+
+    #main > #content{
+        /* background-color: #881f1f; */
+        padding-left: 0rem;
+    }
+
+
+    #main #content .complete{
+        column-gap: 0rem;
+        row-gap: 2rem;
+        margin-right: 0rem;
+        margin-top: 1rem;
+        /* background-color: saddlebrown; */
+    }
+
+    #content .complete .days{
+        font-size: 1.3rem;
+        margin-left: 16.4rem;
+        /* background-color: slateblue; */
+    }
+
+    #content .complete .mixed{
+        width: 82%;
+        margin-left: 10.8rem;
+        /* background-color: aqua; */
+    }
+
+
+    #content .mixed .tempe{
+        font-size: 3.2rem;
+    }
+
+    #content .mixed .icon{
+        width: 6.5rem;
+    }
+
+    #content .mixed .tempe::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    #content .complete .feels-like{
+        padding-left: 2.5rem;
+        /* background-color: seagreen; */
+    }
+
+    #content .complete .feels-like-main{
+        /* background-color: red; */
+        padding-left: 9rem;
+    }
+
+    #content .complete .feels-like::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    #content .complete .wind-speed{
+        padding-left: 2.5rem;
+    }
+
+    #content .complete .wind-speed-main{
+        padding-left: 8.8rem;
+    }
+
+    #content .complete .wind-speed::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    #content .complete .humidity-value{
+        padding-left: 2.5rem;
+    }
+
+    #content .complete .humidity-value-main{
+        padding-left: 9rem;
+    }
+    
+
+    #content .complete .humidity-value::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    #content .complete .pressure-value{ 
+        padding-left: 2.5rem;
+    }
+
+    #content .complete .pressure-value-main{ 
+        padding-left: 8.8rem;
+    }
+
+    #content .complete .pressure-value::after{
+        width: 76.2%;
+        left: 11%;
+    }
+
+    
+    #content .complete .clouds-cover{
+        padding-left: 2.5rem;
+    }
+
+    #content .complete .clouds-cover-main{
+        padding-left: 9rem;
+    }
+
 }

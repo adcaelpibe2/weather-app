@@ -1,9 +1,19 @@
-
 var plus = document.getElementById("form-app");
 plus.addEventListener("submit", function (e) {
 
-
     e.preventDefault()
+
+    var main = document.createElement('div');
+    main.id = 'main';
+    main.innerHTML = `
+        <h3>Daily </h3>
+        <div id="content"></div>
+    `;
+
+    const div1 = document.getElementById('date');
+    div1.after(main);
+
+
     var city = ""
     city = document.querySelector("#search").value
     const apiKey = 'ed8b08e391d74f66b2c30059804ce319'
@@ -65,7 +75,6 @@ function getAll(city, apiKey) {
 
 
 function Current2(varia) {
-    console.log(varia)
 
     var content = document.querySelector("#content")
     content.innerHTML = ""
